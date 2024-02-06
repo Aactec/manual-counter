@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loquacious</title>
+</head>
+<body>
+    <div class="first">
+        <div class="first-set">
+            <h3>Home</h3>
+            <div class="fifth" style="color: brown; font-size: 100px;" id="countLabel">0</div>
+            <div class="third">
+                <p id="increaseOne">+1</p>
+                <p id="increaseTwo">+2</p>
+                <p id="increaseThree">+3</p>
+            </div>
+
+        </div>
+        <div class="second-set">
+            <h3>Away</h3>
+            <div class="sixth" style="color: brown; font-size: 100px;" id="countLabeltwo">0</div>
+            <div class="fourth">
+                <p id="increaseFour">+1</p>
+                <p id="increaseFive">+2</p>
+                <p id="increaseSix">+3</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        let count = 0;
+
+        document.getElementById("increaseOne").onclick = function () {
+            count +=1;
+            document.getElementById("countLabel").innerHTML = count;
+        }
+        document.getElementById("increaseTwo").onclick = function () {
+            count +=2;
+            document.getElementById("countLabel").innerHTML = count;
+        }
+        document.getElementById("increaseThree").onclick = function () {
+            count +=3;
+            document.getElementById("countLabel").innerHTML = count;
+        }
+    </script>
+    <script>
+        let counTwo = 0;
+
+        document.getElementById("increaseFour").onclick = function () {
+            counTwo +=1;
+            document.getElementById("countLabeltwo").innerHTML = counTwo;
+        }
+        document.getElementById("increaseFive").onclick = function () {
+            counTwo +=2;
+            document.getElementById("countLabeltwo").innerHTML = counTwo;
+        }
+        document.getElementById("increaseSix").onclick = function () {
+            counTwo +=3;
+            document.getElementById("countLabeltwo").innerHTML = counTwo;
+        }
+    </script>
+</body>
+</html>

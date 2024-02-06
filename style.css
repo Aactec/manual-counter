@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    display: flex;
+    width: 500px;
+    height: 350px;
+    justify-content: space-around;
+    border: 2px solid whitesmoke;
+    margin: 20px auto;  
+    background-color: #1B244A;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 3rem;
+    margin-top: 25px;
+    font-family: 'Verdana';
+}
+
+.third, .fourth {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: aliceblue;
+}
+
+.fifth, .sixth {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 37px;
+}
+
+p {
+    border: 2px solid #9AABD8;
+    padding: 11px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
